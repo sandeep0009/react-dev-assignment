@@ -3,11 +3,11 @@
     "routes": [
       {
         "src": "/api/data",
-        "dest": "your-backend-file.js"
+        "dest": "index.js"
       },
       {
         "src": "/api/data/.*",
-        "dest": "your-backend-file.js"
+        "dest": "index.js"
       }
     ]
   }
