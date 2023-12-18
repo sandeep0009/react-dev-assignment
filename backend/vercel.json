@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/api/data",
+        "dest": "your-backend-file.js"
+      },
+      {
+        "src": "/api/data/.*",
+        "dest": "your-backend-file.js"
+      }
+    ]
+  }
+  
